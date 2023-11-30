@@ -21,3 +21,9 @@ noBtn.addEventListener("mouseover", () => {
     noBtn.style.left = randomX + "px";
     noBtn.style.top = randomY + "px";
 });
+noBtn.addEventListener("click", () => {
+    question.innerHTML = "Haww you really don't wanna go out with me ?";
+    gif.src =
+        "https://media.giphy.com/media/AsL3dRShYSDSRArGhW/giphy.gif";
+    noBtn.remove();
+});
